@@ -1,3 +1,6 @@
+#ifndef PAIRSCOLOURDATA_H
+#define PAIRSCOLOURDATA_H
+
 #include <string.h>
 
 enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
@@ -22,3 +25,5 @@ typedef struct {
     enum MajorColor majorColor;
     enum MinorColor minorColor;
 } ColorPair;
+
+#endif
