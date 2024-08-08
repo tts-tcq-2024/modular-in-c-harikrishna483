@@ -1,3 +1,6 @@
+#ifndef PAIRCOLOURS_H
+#define PAIRCOLOURS_H
+
 ColorPair colorpairfromnumber(int pairNumber) {
     ColorPair colorPair;
     int zeroBasedPairNumber = pairNumber - 1;
@@ -13,3 +16,4 @@ void PrintColorPairToString(const ColorPair* colorPair, char* buffer) {
         MajorColorNames[colorPair->majorColor],
         MinorColorNames[colorPair->minorColor]);
 }
+#endif
